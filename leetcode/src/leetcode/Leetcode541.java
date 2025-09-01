@@ -27,6 +27,28 @@ s consists of only lowercase English letters.
 1 <= k <= 104
  */
 
+
+/*
+*Solution :
+*  Step 1: converting the String to charector Array using toChararray().
+*  Step 2: declaring pointers i = starting point , j=end point.
+*  step 3:Cheaking the  charector one by one whether it is letter or not. using( isLetter())
+*  step 4: if it is not letter we will increment the starting point(i) or decreasing the ending point(j) 
+*  step 5: if both are letters then we swap.
+*  step 6: move the pointers until both crossing.
+*  step 7: After that converting the Array to String using new String() method.
+*
+* hint 
+*  solution 2 : we can use Stringbuilder concept also it will decrease the space complexity to O(1)
+*/
+
+
+/*
+*  COMPLEXITY :
+*	TIME :  O(n)
+*   SPACE : O(n)
+*/
+
 package leetcode;
 
 import java.util.Arrays;
